@@ -7,7 +7,10 @@ function App() {
   
   useEffect(() => {
     async function consultaAPI(){
-      const consulta = await axios.get('/ttt');
+      const consulta = await axios({
+        method: 'GET',
+        url: 'https://backend-ciro.herokuapp.com/ttt'
+      });
       console.log(consulta);
       setApi(consulta.data);
     };
