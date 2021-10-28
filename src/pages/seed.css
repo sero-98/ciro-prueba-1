@@ -1,0 +1,18 @@
+#intro {
+  /* Margin to fix overlapping fixed navbar */
+  margin-top: 58px;
+}
+@media (max-width: 991px) {
+  #intro {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 45px;
+  }
+}
+
+.mask{
+  background-color: rgba(251, 251, 251, 0.15);
+}
+
+div.ultimo{
+  background-color: rgba(0, 0, 0, 0.2);
+}
