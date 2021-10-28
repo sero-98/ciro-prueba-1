@@ -16,3 +16,20 @@
 div.ultimo{
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+div.imagen_grande {
+  background-image: url('https://i.pinimg.com/originals/57/69/db/5769db3ad34657e56473603259354cf8.jpg');
+}
+
+.marca {
+  color: rgb(0, 0, 0);
+  text-shadow: #f83 -1px 1px, #f83 -2px 2px, #f83 -3px 3px, #f83 -4px 4px, #f83 -5px 5px;
+  letter-spacing: 1px;
+  font-size: 33px;
+}
+.marca1 {
+  color: rgb(0, 0, 0);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: #f83 -1px 1px, #f83 -2px 2px, #f83 -3px 3px, #f83 -4px 4px, #f83 -5px 5px;
+  letter-spacing: 1px;
+}

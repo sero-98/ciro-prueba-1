@@ -58,9 +58,9 @@ function seed(props) {
           </div>
         </nav>
 
-        <div id="intro" className="p-5 text-center bg-light">
-          <h1 className="mb-3 h2">Ciro papeles <img src="https://img.icons8.com/doodle/48/000000/koala.png" alt="" /> </h1>
-          <p className="mb-3">Porudctos & Servicios</p>
+        <div id="intro" className="p-5 text-center bg-light imagen_grande">
+          <h1 className="mb-3 h2 marca">Ciro papeles <img src="https://img.icons8.com/doodle/48/000000/koala.png" alt="" /> </h1>
+          <p className="mb-3 marca1">Productos & Servicios</p>
           <a className="btn btn-primary m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
             role="button">start</a>
         </div>
@@ -231,7 +231,7 @@ function seed(props) {
 
         <div class="text-center p-3 ultimo">
           © 2020 Copyright:
-          <a class="text-dark" href="http://localhost:3000/seed">CiroCorp.com</a>
+          <a class="text-dark" href="https://serene-leavitt-98150e.netlify.app/seed">CiroCorp.com</a>
         </div>
 
       </footer>
